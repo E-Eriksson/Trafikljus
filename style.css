@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   display: flex;
   background-color: gray;
@@ -10,7 +9,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .container {
   display: flex;
   flex-direction: column;
@@ -18,31 +16,26 @@ body {
   width: 100px;
   background-color: white;
 }
-
 .light {
   height: 111px;
   width: 90px;
   margin: 5px;
   position: relative;
 }
-
 .red {
   background-color: red;
   border: 5px solid darkred;
 }
-
 .yellow {
   background-color: yellow;
   border: 5px solid goldenrod;
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .green {
   background-color: green;
   border: 5px solid darkgreen;
 }
-
 .inner {
   position: absolute;
   margin: 0;
